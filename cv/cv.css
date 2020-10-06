@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.left-border {
+  width: 210px;
+  height: 1px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.right-border {
+  width: 700px;
+  height: 1px;
+  margin-top: 10px;
+  background-color: #000;
+}
+
+.template {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "PT Serif", serif;
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.template .profile-wrapper {
+  overflow: hidden;
+}
+
+.template .profile-wrapper .profile-image {
+  width: 230px;
+  float: left;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.template .profile-wrapper .profile-image img {
+  width: 230px;
+  height: 230px;
+}
+
+.template .profile-wrapper .profile-details {
+  width: 720px;
+  float: left;
+  margin-top: 90px;
+  overflow: hidden;
+}
+
+.template .profile-wrapper .profile-details h5 {
+  background-color: #262626;
+  color: #ff9900;
+  padding: 5px;
+}
+
+.template .section-wrapper .cv-left {
+  width: 230px;
+  background-color: #262626;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content {
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .about-me {
+  color: #fff;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .about-me h3 {
+  float: right;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .about-me h3 .icon-user {
+  color: #ff9900;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .about-me p {
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  letter-spacing: -0.5px;
+  font-size: 15px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me h3 {
+  float: right;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me h3 .icon-address {
+  color: #ff9900;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me .contact-details {
+  padding-left: 20px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me .contact-details .contact-address {
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me .contact-details .contact-address h4 {
+  float: right;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .contact-me .contact-details .contact-address p {
+  float: right;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area {
+  color: #fff;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area h3 {
+  float: right;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area h3 .icon-skill {
+  color: #ff9900;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area .skill-content {
+  padding-top: 20px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area .skill-content .progress-wrapper {
+  width: 90px;
+  height: 10px;
+  background-color: #ddd;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area .skill-content .progress-wrapper .progress-bar {
+  height: 100%;
+  background-color: #ff9900;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area .skill-content .skill-name {
+  float: right;
+  margin-top: -7px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .skill-area .skill-content .skill-name p {
+  font-size: 15px;
+}
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area {
+  color: #fff;
+  padding-top: 15px;
+  overflow: hidden;
+}
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area h3 {
+  float: right;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area h3 .icon-strength {
+  color: #ff9900;
+}
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area .personal-strength-content {
+  padding-top: 20px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area .personal-strength-content .strength-wrapper {
+  width: 90px;
+  height: 10px;
+  background-color: #ddd;
+  float: right;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area .personal-strength-content .strength-wrapper .strength-bar {
+  height: 100%;
+  background-color: #ff9900;
+}
+
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area .personal-strength-content .strength-name {
+  float: left;
+  margin-top: -7px;
+  margin-left: 20px;
+  
+}
+
+.template .section-wrapper .cv-left .cv-left-content .personal-strength-area .personal-strength-content .strength-name p {
+  font-size: 15px;
+}
+.template .section-wrapper .cv-right {
+  float: right;
+}
+
+.template .section-wrapper .cv-right .cv-right-content {
+  width: 700px;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+
+.template .section-wrapper .cv-right .cv-right-content .cv-right-details .right-details-row {
+  width: 700px;
+  overflow: hidden;
+}
+
+.template .section-wrapper .cv-right .cv-right-content .cv-right-details .right-details-row .details-left {
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.template .section-wrapper .cv-right .cv-right-content .cv-right-details .right-details-row .details-left h4 {
+  margin-bottom: 10px;
+}
+
+.template .section-wrapper .cv-right .cv-right-content .cv-right-details .right-details-row .details-right {
+  width: 430px;
+  float: left;
+  margin-top: 20px;
+}
+
+.template .section-wrapper .cv-right .cv-right-content .cv-right-details .right-details-row .details-right h4 {
+  margin-bottom: 10px;
+}
+.shakib {
+  width: 1100px;
+  height: 1000px;
+  background-color: #ddd;
+  margin: 0 auto;
+}
+.shakib-wrapper {
+  width: 500px;
+  height: 10px;
+  background-color: #000;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.shakib-bar {
+  height: 100%;
+  
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
